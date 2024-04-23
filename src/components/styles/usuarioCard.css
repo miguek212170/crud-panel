@@ -1,0 +1,31 @@
+.usuario{
+    width: 250px;
+    background-color: grey;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+.usuario__nombre{
+   margin-bottom: 10px;
+   text-align: center;
+}
+.user__lista{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.usuario__item{
+    display: flex;
+    flex-direction: column;
+}
+.usuario__boton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 20px
+}
+.usuario__item span:first-child{
+    color: #FFF;
+}
